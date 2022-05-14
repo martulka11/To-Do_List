@@ -1,0 +1,59 @@
+
+.layout {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+
+.view {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-y: scroll;
+  margin: auto;
+  height: 88vh;
+  margin-right: 50px;
+}
+
+.main {
+  margin: 1rem auto;
+  width: 100%;
+  background-color: white;
+  margin-right: 50px;
+  padding-top: 0.3rem;
+  padding-bottom: 1rem;
+}
+
+.hidden {
+  display: flex;
+  background-color: #62d9d9;
+  flex-direction: row;
+  width: 100%;
+  color: #62d9d9;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #c5cece;
+  align-items: center;
+  font-size: bold;
+  text-transform: uppercase;
+}
+
+.title {
+  padding-left: 3rem;
+  width: 40%;
+}
+
+.status {
+  padding-left: 1.5rem;
+  width: 20%;
+}
+
+.priority {
+  padding-left: 1.2rem;
+  width: 17%;
+}

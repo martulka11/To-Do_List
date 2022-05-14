@@ -1,0 +1,56 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0.1rem;
+  padding-bottom: 0.8rem;
+  border-bottom: solid black 1px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.title {
+  width: 40%;
+}
+
+.status {
+  width: 20%;
+}
+
+.status img {
+  width: 2rem;
+}
+
+.button {
+  width: 15%;
+}
+
+.button button {
+  padding: 0.7rem 1.2rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  font-weight: bold;
+  box-shadow: 0.1rem 0.1rem 0.3rem #777;
+  transition: box-shadow 0.4s;
+  cursor: pointer;
+}
+
+.button button:hover {
+  background-color: rgba(98, 217, 217, 0.7);
+  color: white;
+  border: #22223b solid;
+  box-shadow: 0.3rem 0.3rem 0.5rem #777;
+}
+
+.delete {
+  width: 5%;
+}
+
+.delete img {
+  width: 1.5rem;
+  cursor: pointer;
+}
+
+.delete img:hover {
+  width: 2rem;
+}
