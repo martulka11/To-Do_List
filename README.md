@@ -15,7 +15,7 @@ To do:
 - Clear all tasks
 - Edit task 
 - Add responsive
-- Sort by start date - add calendar component
+- Sort by date - add calendar component
 
 
 ## Contact
